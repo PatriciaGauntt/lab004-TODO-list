@@ -1,0 +1,33 @@
+{
+  "name": "lab004-todo-list",
+  "version": "0.0.1",
+  "description": "TODO list application for lab 004",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatriciaGauntt/lab004-TODO-list.git"
+  },
+  "author": "Patricia Gauntt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatriciaGauntt/lab004-TODO-list/issues"
+  },
+  "homepage": "https://github.com/PatriciaGauntt/lab004-TODO-list#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "@eslint/json": "^0.13.2",
+    "eslint": "^9.35.0",
+    "globals": "^16.3.0",
+    "jsdoc": "^4.0.4"
+  },
+  "dependencies": {
+    "fs.promises": "^0.1.2",
+    "lodash": "^4.17.21",
+    "uuid": "^12.0.0",
+    "yargs": "^18.0.0"
+  }
+}
